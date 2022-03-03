@@ -1,0 +1,51 @@
+/* common */
+body {
+    background-color: #edeae2;	/*背景色*/;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    bottom: 0; /*下に固定*/
+    list-style: none;
+}
+
+/* ベースCSS・リセットCSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+  }
+  button {
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    vertical-align: middle;
+    color: inherit;
+    font: inherit;
+    border: 0;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border-radius: 0;
+  }
+
+  .demo-title {
+    font-size: 24px;
+    margin-bottom: 1em;
+    padding: 1em 0;
+    text-align: center;
+    color: #fefefe;
+    background-color: royalblue;
+  }
+  /*********** ここまでベースCSS・リセットCSS ***********/
+  .carousel {
+    width: 600px;
+    height: calc(600px * 0.5625);
+    /* position: relative; */
+    margin: 0 auto;
+  }
